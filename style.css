@@ -68,3 +68,9 @@ p{
 footer p{
     text-align: center;
 }
+
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
