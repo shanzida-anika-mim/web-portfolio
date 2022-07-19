@@ -1,10 +1,17 @@
 body{
 
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 42px;
+}
+
+
+p{
+    color: darkgray;
+    font-size: large;
 }
 .name-heighlight{
     color: orange;
@@ -17,4 +24,47 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+
+.top-banner{
+    
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5%;
+    color: white;
+    font-weight: 700;
+}
+
+.dream-area{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+}
+
+.single-experience{
+
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    
+}
+#cloud{
+
+    border-left: 7px solid;
+    border-image: linear-gradient( lightsalmon, red );
+    border-image-slice: 1 ;
+
+}
+#software{
+    border-left: 7px solid;
+    border-image: linear-gradient( blue, cyan );
+    border-image-slice: 1 ;
+
+}
+footer p{
+    text-align: center;
 }
